@@ -7,11 +7,13 @@ uses
 
 function Enigma_Plugin_About : PWideChar;
 begin
+  Enigma_Plugin_About :='Dll Blocker. Created by Unknown, Modified by Nuna.';
   // Function returns a wide string that will be shown in about column in Enigma Miscellaneous - Plugins
 end;
 
 function Enigma_Plugin_Description : PWideChar;
 begin
+  Enigma_Plugin_Description :='Block specified dll with dll';
   // Function returns a wide string that will be shown after user clicks on the plugin in Enigma Miscellaneous - Plugins
   // It may contain, for example, usage instructions
 end;
@@ -108,5 +110,3 @@ exports
 
 begin
 end.
-
-
